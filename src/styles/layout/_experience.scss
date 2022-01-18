@@ -1,0 +1,26 @@
+.timeline-table {
+  tr {
+    td {
+      padding-top: 35px;
+      vertical-align: top;
+
+      &:first-child {
+        width: 100px;
+      }
+    }
+  }
+
+  .qual {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 5px;
+  }
+
+  .institute {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,91 @@
+.about-me-sec {
+  padding: 50px 25px;
+
+  .profile-pic {
+    display: block;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 50%;
+  }
+
+  .name {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+
+  .designation {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #fccd12;
+  }
+
+  .qual-under-name {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    width: 70%;
+    margin: 20px auto 18px;
+    letter-spacing: 1px;
+  }
+
+  .contact-div {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    padding: 15px;
+
+    i {
+      display: block;
+      width: 40px;
+      height: 40px;
+      background: #fccd12;
+      border-radius: 50%;
+      padding: 12px 8px;
+      margin: auto auto 15px;
+      color: #000;
+    }
+
+    a,
+    p {
+      margin-bottom: 0;
+      text-align: center;
+      color: #fff;
+      font-weight: 300;
+      text-decoration: none;
+    }
+  }
+
+  .qr-code {
+    position: fixed;
+    width: 120px;
+    top: 30px;
+    right: 30px;
+  }
+
+  @media (max-width: 575px) {
+    .contact-div {
+      width: 100%;
+    }
+
+    .qr-code {
+      width: 85px;
+    }
+  }
+
+  @media (min-width: 576px) and (max-width: 992px) {
+    .contact-div {
+      width: 50%;
+    }
+  }
+}

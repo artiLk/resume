@@ -1,0 +1,18 @@
+.ref_sec {
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .reference_table {
+    tr {
+      td {
+        padding: 2px 0;
+        font-weight: 300;
+
+        &:first-child {
+          width: 35px;
+        }
+      }
+    }
+  }
+}

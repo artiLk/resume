@@ -1,0 +1,35 @@
+.title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
+
+.sub_title {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+
+.demo_link_project {
+  display: block;
+  color: #000;
+
+  a {
+    font-weight: 300;
+    text-decoration: none;
+  }
+}
+
+.demo_link {
+  display: block;
+  color: #67fbfb;
+
+  a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,32 @@
+.col_stack {
+  display: inline-block;
+  width: 20%;
+
+  .tech-title {
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+
+  .tech_item {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 575px) {
+  .col_stack {
+    width: 50%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .col_stack {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .col_stack {
+    width: 25%;
+  }
+}

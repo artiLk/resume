@@ -1,0 +1,38 @@
+.bgDark {
+  background: #333;
+}
+
+.yellow_theme {
+  background: #fccd12;
+  color: #000;
+  padding: 50px 15px;
+}
+
+.light_theme {
+  background: #fff;
+  color: #000;
+  padding: 50px 15px;
+}
+
+.dark_theme {
+  background: #333;
+  color: #fff;
+  padding: 50px 15px;
+}
+
+.sec_heading {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+.arti-images-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arti-images {
+  width: 32%;
+  // margin: 2%;
+}
