@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/content/Header";
 import Tech from "../components/content/Tech";
 import Experience from "../components/content/Experience";
-import Arti from "../components/content/Arti";
+// import Arti from "../components/content/Arti";
 import BITDegree from "../components/content/BITDegree";
 import SchoolEducation from "../components/content/SchoolEducation";
 import UniEducation from "../components/content/UniEducation";
@@ -17,7 +17,7 @@ const Home = () => {
       <Header />
       <Tech />
       <Experience />
-      <Arti />
+      {/* <Arti /> */}
       <BITDegree />
       <Projects />
       <SchoolEducation />

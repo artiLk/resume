@@ -13,7 +13,7 @@ const Header = () => {
             <p className="designation">
               Software Engineer / Full-Stack Developer
             </p>
-            <p className="designation">
+            {/* <p className="designation">
               Founder of{" "}
               <a
                 href="https://www.arti.lk/?page=1"
@@ -22,7 +22,7 @@ const Header = () => {
               >
                 Arti.lk
               </a>
-            </p>
+            </p> */}
             <p className="qual-under-name">
               Bachelor Of Information Technology (BIT) 2nd Class (UCSC), BSc.
               Accounting (Sp) 2nd Class (USJP), Dip in IT - BSC(UK), Certificate
